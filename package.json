@@ -15,6 +15,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "build": "rolldown --config rolldown.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -31,5 +32,8 @@
     "@luma.gl/gltf": "^9.3.3",
     "@luma.gl/shadertools": "^9.3.3",
     "@math.gl/web-mercator": "^4.1.0"
+  },
+  "devDependencies": {
+    "rolldown": "^1.0.0-rc.17"
   }
 }
