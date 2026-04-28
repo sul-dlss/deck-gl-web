@@ -23,7 +23,7 @@ function bareSpecifiers() {
 }
 
 export default defineConfig({
-  input: "index.js",
+  input: ["index.js", "allmaps.js"],
   plugins: [bareSpecifiers()],
   output: {
     dir: "dist",
